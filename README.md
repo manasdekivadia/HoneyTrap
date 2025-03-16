@@ -3,9 +3,13 @@ HoneyTrap is a lightweight yet powerful honeypot designed to detect and log unau
 
 🚀 Features
 ✅ SSH Honeypot – Captures brute-force attacks, logs credentials, and attacker behavior.
+
 ✅ HTTP Honeypot – Mimics web applications to detect web-based attacks (SQLi, XSS, etc.).
+
 ✅ Logging & Analysis – Records attack details for further analysis.
+
 ✅ Customizable Traps – Configure fake vulnerabilities to lure attackers.
+
 ✅ Lightweight & Easy to Deploy – Runs on minimal hardware with Python.
 
 ⚙️ How It Works
