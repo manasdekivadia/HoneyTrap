@@ -19,6 +19,9 @@ Suspicious HTTP requests (e.g., scans, injections) are captured and stored.
 
 Logs provide insights into attack patterns, malicious IPs, and exploit techniques.
 
+The templates folder contain the main html code for a simple login page.
+
+
 🔥 Disclaimer
 
 For research & educational purposes only! Deploying a honeypot publicly must comply with legal and ethical guidelines.
