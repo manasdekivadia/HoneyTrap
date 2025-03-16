@@ -22,9 +22,45 @@ Logs provide insights into attack patterns, malicious IPs, and exploit technique
 The templates folder contain the main html code for a simple login page.
 
 
-🔥 Disclaimer
+## 📂 Project Structure
 
-For research & educational purposes only! Deploying a honeypot publicly must comply with legal and ethical guidelines.
+- `honeytrap.py` - Main script to launch SSH or web honeypots.
+- `ssh_honeytrap.py` - SSH-based honeypot implementation using `paramiko`.
+- `web_honeytrap.py` - Web-based honeypot using `Flask`.
+- `login.html` - Fake login page for the web honeypot.
 
-📌 Try at your own risk. Do NOT expose to production environments without proper security measures.
+## 🛠️ Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/yourusername/honeypot.git
+cd honeypot
+```
+### 2️⃣ Run the honeypot
+
+- **SSH Honeypot**
+  ```bash
+  python honeytrap.py -a 0.0.0.0 -p 2222 -u username -pw password -s
+  ```
+- **Web Honeypot**
+  ```bash
+  python honeytrap.py -a 0.0.0.0 -p 5000 -w
+  ```
+
+## 📜 Logs & Monitoring
+
+- **SSH logs:** Stored in `ssh_audits.log`
+- **Web login attempts:** Logged in `http_audits.log`
+
+## ⚠️ Disclaimer
+
+This tool is for security research and educational purposes only. Use it responsibly and only in environments you own or have explicit permission to monitor.
+
+## 🏆 Contributions
+
+Feel free to fork and improve this honeypot! Submit pull requests with enhancements or report issues.
+
+---
+
 
