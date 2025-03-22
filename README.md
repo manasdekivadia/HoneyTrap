@@ -36,7 +36,7 @@ The templates folder contain the main html code for a simple login page.
 
 ```bash
 git clone https://github.com/manasdekivadia/HoneyTrap.git
-cd honeypot
+cd HoneyTrap
 ```
 ### 2️⃣ Run the honeypot
 
